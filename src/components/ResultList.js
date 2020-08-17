@@ -1,7 +1,6 @@
 import React from 'react';
-import { View, Text, StyleSheet, FlatList } from 'react-native';
+import { View, Text, StyleSheet, FlatList,TouchableOpacity } from 'react-native';
 import ResultDetail from './ResultsDetail';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 import { withNavigation } from 'react-navigation';
 
 const ResultList = ({ title, results, navigation }) => {
